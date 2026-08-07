@@ -1,0 +1,29 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "38d74d0e-1549-4227-bb85-b32edbc4e32c")
+	(paper "A4")
+	(lib_symbols)
+	(text_box "Gate driver design notes\n\n- INA/INB - Logic input with TTL compatible thresholds and internal pull-down resistor.\n- VDDI - Input-side supply voltage: Range 3 V to 17 V\n- DIS - Disable input channel A and B (active High, DIS high causes OUTA/OUTB low).\n- STP/DTC - Shoot-through protection and dead time control. If STP/DTC is HIGH or open, OUTA and OUTB can overlap. If STP/DTC is connected to GNDI with a resistance RDTC"
+		(exclude_from_sim no)
+		(at 31.115 23.495 0)
+		(size 245.745 133.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.81 3.81)
+			)
+			(justify left top)
+		)
+		(uuid "7545b89d-7784-4812-928a-eefa880c3d81")
+	)
+)

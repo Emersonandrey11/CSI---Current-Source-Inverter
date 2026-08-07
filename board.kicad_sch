@@ -1,0 +1,134 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "e0ff0a0c-11dc-4c64-86e8-d5afe71b917f")
+	(paper "A4")
+	(lib_symbols)
+	(text "2. Gate-driver"
+		(exclude_from_sim no)
+		(at 60.706 70.358 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(href "#2")
+		)
+		(uuid "02e653bb-dccc-4ea4-83f1-ac91e618ad12")
+	)
+	(text "1. Esquemático inversor"
+		(exclude_from_sim no)
+		(at 78.74 53.34 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 5.08 5.08)
+				(thickness 0.762)
+				(bold yes)
+			)
+			(href "#3")
+		)
+		(uuid "f814cc85-e656-49a5-9d90-b57c9f5655c4")
+	)
+	(sheet
+		(at 34.925 252.73)
+		(size 36.195 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 178 66 1)
+		)
+		(uuid "6637673a-6330-4086-b5ac-b26c15585ac3")
+		(property "Sheetname" "gate_driver"
+			(at 34.925 252.0184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gate_driver.kicad_sch"
+			(at 34.925 274.9046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "board"
+				(path "/e0ff0a0c-11dc-4c64-86e8-d5afe71b917f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.925 219.075)
+		(size 36.195 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 153 201 84 0.8509803922)
+		)
+		(uuid "ea2a7ee9-7b91-4a3c-bfaf-b41405dbdfdb")
+		(property "Sheetname" "inveter"
+			(at 34.925 218.3634 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "inveter.kicad_sch"
+			(at 34.925 241.2496 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "board"
+				(path "/e0ff0a0c-11dc-4c64-86e8-d5afe71b917f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
